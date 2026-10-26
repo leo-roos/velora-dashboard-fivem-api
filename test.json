@@ -1,0 +1,611 @@
+{
+    "getJob": {
+        "__cfx_functionReference": "es_extended:292:13853"
+    },
+    "showAdvancedNotification": {
+        "__cfx_functionReference": "es_extended:292:13866"
+    },
+    "triggerEvent": {
+        "__cfx_functionReference": "es_extended:292:13823"
+    },
+    "addWeapon": {
+        "__cfx_functionReference": "es_extended:292:13852"
+    },
+    "getWeaponTint": {
+        "__cfx_functionReference": "es_extended:292:13874"
+    },
+    "getAccounts": {
+        "__cfx_functionReference": "es_extended:292:13845"
+    },
+    "executeCommand": {
+        "__cfx_functionReference": "es_extended:292:13861"
+    },
+    "hasWeaponComponent": {
+        "__cfx_functionReference": "es_extended:292:13835"
+    },
+    "maxWeight": 24,
+    "getIdentifier": {
+        "__cfx_functionReference": "es_extended:292:13850"
+    },
+    "kick": {
+        "__cfx_functionReference": "es_extended:292:13878"
+    },
+    "playerId": 2,
+    "lastPlaytime": 23140,
+    "getAccount": {
+        "__cfx_functionReference": "es_extended:292:13821"
+    },
+    "name": "Leo Andersson",
+    "getName": {
+        "__cfx_functionReference": "es_extended:292:13883"
+    },
+    "removeWeaponAmmo": {
+        "__cfx_functionReference": "es_extended:292:13869"
+    },
+    "getInventory": {
+        "__cfx_functionReference": "es_extended:292:13862"
+    },
+    "spawned": true,
+    "ssn": "337-52-9324",
+    "hasItem": {
+        "__cfx_functionReference": "es_extended:292:13872"
+    },
+    "setName": {
+        "__cfx_functionReference": "es_extended:292:13884"
+    },
+    "isPaycheckEnabled": {
+        "__cfx_functionReference": "es_extended:292:13833"
+    },
+    "removeMoney": {
+        "__cfx_functionReference": "es_extended:292:13859"
+    },
+    "getSource": {
+        "__cfx_functionReference": "es_extended:292:13870"
+    },
+    "addWeaponComponent": {
+        "__cfx_functionReference": "es_extended:292:13843"
+    },
+    "getSSN": {
+        "__cfx_functionReference": "es_extended:292:13858"
+    },
+    "setWeaponTint": {
+        "__cfx_functionReference": "es_extended:292:13847"
+    },
+    "getMeta": {
+        "__cfx_functionReference": "es_extended:292:13865"
+    },
+    "getCoords": {
+        "__cfx_functionReference": "es_extended:292:13871"
+    },
+    "clearMeta": {
+        "__cfx_functionReference": "es_extended:292:13863"
+    },
+    "getMoney": {
+        "__cfx_functionReference": "es_extended:292:13881"
+    },
+    "updateWeaponAmmo": {
+        "__cfx_functionReference": "es_extended:292:13857"
+    },
+    "getInventoryItem": {
+        "__cfx_functionReference": "es_extended:292:13888"
+    },
+    "getLoadout": {
+        "__cfx_functionReference": "es_extended:292:13887"
+    },
+    "getMaxWeight": {
+        "__cfx_functionReference": "es_extended:292:13880"
+    },
+    "addWeaponAmmo": {
+        "__cfx_functionReference": "es_extended:292:13875"
+    },
+    "addMoney": {
+        "__cfx_functionReference": "es_extended:292:13886"
+    },
+    "source": 2,
+    "setJob": {
+        "__cfx_functionReference": "es_extended:292:13879"
+    },
+    "getWeight": {
+        "__cfx_functionReference": "es_extended:292:13848"
+    },
+    "variables": {
+        "sex": "m",
+        "dateofbirth": "10/10/2001",
+        "status": [
+            {
+                "percent": 0.0,
+                "val": 0,
+                "name": "drunk"
+            },
+            {
+                "percent": 39.93,
+                "val": 399300,
+                "name": "hunger"
+            },
+            {
+                "percent": 42.4475,
+                "val": 424475,
+                "name": "thirst"
+            }
+        ],
+        "height": 187,
+        "lastName": "Andersson",
+        "addonAccounts": [
+            {
+                "money": 0,
+                "save": {
+                    "__cfx_functionReference": "es_extended:292:13827"
+                },
+                "owner": "char1:fa27892cd1853dea4d7164f629aa530909d12ba7",
+                "removeMoney": {
+                    "__cfx_functionReference": "es_extended:292:13824"
+                },
+                "name": "bank_savings",
+                "setMoney": {
+                    "__cfx_functionReference": "es_extended:292:13825"
+                },
+                "addMoney": {
+                    "__cfx_functionReference": "es_extended:292:13826"
+                }
+            },
+            {
+                "money": 0,
+                "save": {
+                    "__cfx_functionReference": "es_extended:292:13831"
+                },
+                "owner": "char1:fa27892cd1853dea4d7164f629aa530909d12ba7",
+                "removeMoney": {
+                    "__cfx_functionReference": "es_extended:292:13828"
+                },
+                "name": "caution",
+                "setMoney": {
+                    "__cfx_functionReference": "es_extended:292:13829"
+                },
+                "addMoney": {
+                    "__cfx_functionReference": "es_extended:292:13830"
+                }
+            }
+        ],
+        "addonInventories": [],
+        "firstName": "Leo"
+    },
+    "showHelpNotification": {
+        "__cfx_functionReference": "es_extended:292:13867"
+    },
+    "removeAccountMoney": {
+        "__cfx_functionReference": "es_extended:292:13840"
+    },
+    "setMeta": {
+        "__cfx_functionReference": "es_extended:292:13864"
+    },
+    "identifier": "char1:fa27892cd1853dea4d7164f629aa530909d12ba7",
+    "setAccountMoney": {
+        "__cfx_functionReference": "es_extended:292:13885"
+    },
+    "license": "license:fa27892cd1853dea4d7164f629aa530909d12ba7",
+    "isAdmin": {
+        "__cfx_functionReference": "es_extended:292:13836"
+    },
+    "setInventoryItem": {
+        "__cfx_functionReference": "es_extended:292:13855"
+    },
+    "getPlayerId": {
+        "__cfx_functionReference": "es_extended:292:13854"
+    },
+    "hasWeapon": {
+        "__cfx_functionReference": "es_extended:292:13844"
+    },
+    "accounts": [
+        {
+            "label": "Dirty Money",
+            "money": 0,
+            "round": true,
+            "name": "black_money",
+            "index": 1
+        },
+        {
+            "label": "Bank",
+            "money": 14600,
+            "round": true,
+            "name": "bank",
+            "index": 2
+        },
+        {
+            "label": "Cash",
+            "money": 993000,
+            "round": true,
+            "name": "money",
+            "index": 3
+        }
+    ],
+    "coords": {
+        "y": -4707.09912109375,
+        "heading": 204.0944976806641,
+        "x": 3055.279052734375,
+        "z": 15.2608642578125
+    },
+    "inventory": [
+        {
+            "canRemove": 1,
+            "label": "Bandage",
+            "weight": 2,
+            "rare": 0,
+            "count": 0,
+            "usable": true,
+            "name": "bandage"
+        },
+        {
+            "canRemove": 1,
+            "label": "Blowtorch",
+            "weight": 2,
+            "rare": 0,
+            "count": 0,
+            "usable": true,
+            "name": "blowpipe"
+        },
+        {
+            "canRemove": 1,
+            "label": "Body Kit",
+            "weight": 3,
+            "rare": 0,
+            "count": 0,
+            "usable": true,
+            "name": "carokit"
+        },
+        {
+            "canRemove": 1,
+            "label": "Bread",
+            "weight": 1,
+            "rare": 0,
+            "count": 0,
+            "usable": true,
+            "name": "bread"
+        },
+        {
+            "canRemove": 1,
+            "label": "Cannabis",
+            "weight": 3,
+            "rare": 0,
+            "count": 0,
+            "usable": false,
+            "name": "cannabis"
+        },
+        {
+            "canRemove": 1,
+            "label": "Chicken fillet",
+            "weight": 1,
+            "rare": 0,
+            "count": 0,
+            "usable": false,
+            "name": "packaged_chicken"
+        },
+        {
+            "canRemove": 1,
+            "label": "Cloth",
+            "weight": 1,
+            "rare": 0,
+            "count": 0,
+            "usable": false,
+            "name": "clothe"
+        },
+        {
+            "canRemove": 1,
+            "label": "Copper",
+            "weight": 1,
+            "rare": 0,
+            "count": 0,
+            "usable": false,
+            "name": "copper"
+        },
+        {
+            "canRemove": 1,
+            "label": "Cut wood",
+            "weight": 1,
+            "rare": 0,
+            "count": 0,
+            "usable": false,
+            "name": "cutted_wood"
+        },
+        {
+            "canRemove": 1,
+            "label": "Diamond",
+            "weight": 1,
+            "rare": 0,
+            "count": 0,
+            "usable": false,
+            "name": "diamond"
+        },
+        {
+            "canRemove": 1,
+            "label": "Fabric",
+            "weight": 1,
+            "rare": 0,
+            "count": 0,
+            "usable": false,
+            "name": "fabric"
+        },
+        {
+            "canRemove": 1,
+            "label": "Fish",
+            "weight": 1,
+            "rare": 0,
+            "count": 0,
+            "usable": false,
+            "name": "fish"
+        },
+        {
+            "canRemove": 1,
+            "label": "Gas",
+            "weight": 1,
+            "rare": 0,
+            "count": 0,
+            "usable": false,
+            "name": "essence"
+        },
+        {
+            "canRemove": 1,
+            "label": "Gas Bottle",
+            "weight": 2,
+            "rare": 0,
+            "count": 0,
+            "usable": false,
+            "name": "gazbottle"
+        },
+        {
+            "canRemove": 1,
+            "label": "Gold",
+            "weight": 1,
+            "rare": 0,
+            "count": 0,
+            "usable": false,
+            "name": "gold"
+        },
+        {
+            "canRemove": 1,
+            "label": "Iron",
+            "weight": 1,
+            "rare": 0,
+            "count": 0,
+            "usable": false,
+            "name": "iron"
+        },
+        {
+            "canRemove": 1,
+            "label": "Living chicken",
+            "weight": 1,
+            "rare": 0,
+            "count": 0,
+            "usable": false,
+            "name": "alive_chicken"
+        },
+        {
+            "canRemove": 1,
+            "label": "Marijuana",
+            "weight": 2,
+            "rare": 0,
+            "count": 0,
+            "usable": false,
+            "name": "marijuana"
+        },
+        {
+            "canRemove": 1,
+            "label": "Medikit",
+            "weight": 2,
+            "rare": 0,
+            "count": 0,
+            "usable": true,
+            "name": "medikit"
+        },
+        {
+            "canRemove": 1,
+            "label": "Oil",
+            "weight": 1,
+            "rare": 0,
+            "count": 0,
+            "usable": false,
+            "name": "petrol"
+        },
+        {
+            "canRemove": 1,
+            "label": "Packaged wood",
+            "weight": 1,
+            "rare": 0,
+            "count": 0,
+            "usable": false,
+            "name": "packaged_plank"
+        },
+        {
+            "canRemove": 1,
+            "label": "Phone",
+            "weight": 1,
+            "rare": 0,
+            "count": 0,
+            "usable": false,
+            "name": "phone"
+        },
+        {
+            "canRemove": 1,
+            "label": "Processed oil",
+            "weight": 1,
+            "rare": 0,
+            "count": 0,
+            "usable": false,
+            "name": "petrol_raffin"
+        },
+        {
+            "canRemove": 1,
+            "label": "Radio",
+            "weight": 1,
+            "rare": 0,
+            "count": 0,
+            "usable": false,
+            "name": "radio"
+        },
+        {
+            "canRemove": 1,
+            "label": "Repair Kit",
+            "weight": 3,
+            "rare": 0,
+            "count": 0,
+            "usable": true,
+            "name": "fixkit"
+        },
+        {
+            "canRemove": 1,
+            "label": "Repair Tools",
+            "weight": 2,
+            "rare": 0,
+            "count": 0,
+            "usable": false,
+            "name": "fixtool"
+        },
+        {
+            "canRemove": 1,
+            "label": "Slaughtered chicken",
+            "weight": 1,
+            "rare": 0,
+            "count": 0,
+            "usable": false,
+            "name": "slaughtered_chicken"
+        },
+        {
+            "canRemove": 1,
+            "label": "Stone",
+            "weight": 1,
+            "rare": 0,
+            "count": 0,
+            "usable": false,
+            "name": "stone"
+        },
+        {
+            "canRemove": 1,
+            "label": "Tools",
+            "weight": 2,
+            "rare": 0,
+            "count": 0,
+            "usable": false,
+            "name": "carotool"
+        },
+        {
+            "canRemove": 1,
+            "label": "Washed stone",
+            "weight": 1,
+            "rare": 0,
+            "count": 0,
+            "usable": false,
+            "name": "washed_stone"
+        },
+        {
+            "canRemove": 1,
+            "label": "Water",
+            "weight": 1,
+            "rare": 0,
+            "count": 0,
+            "usable": true,
+            "name": "water"
+        },
+        {
+            "canRemove": 1,
+            "label": "Wood",
+            "weight": 1,
+            "rare": 0,
+            "count": 0,
+            "usable": false,
+            "name": "wood"
+        },
+        {
+            "canRemove": 1,
+            "label": "Wool",
+            "weight": 1,
+            "rare": 0,
+            "count": 0,
+            "usable": false,
+            "name": "wool"
+        }
+    ],
+    "getPlayTime": {
+        "__cfx_functionReference": "es_extended:292:13846"
+    },
+    "setMaxWeight": {
+        "__cfx_functionReference": "es_extended:292:13832"
+    },
+    "removeWeapon": {
+        "__cfx_functionReference": "es_extended:292:13849"
+    },
+    "canCarryItem": {
+        "__cfx_functionReference": "es_extended:292:13841"
+    },
+    "paycheckEnabled": true,
+    "getWeapon": {
+        "__cfx_functionReference": "es_extended:292:13882"
+    },
+    "get": {
+        "__cfx_functionReference": "es_extended:292:13873"
+    },
+    "removeInventoryItem": {
+        "__cfx_functionReference": "es_extended:292:13860"
+    },
+    "admin": true,
+    "group": "admin",
+    "togglePaycheck": {
+        "__cfx_functionReference": "es_extended:292:13876"
+    },
+    "removeWeaponComponent": {
+        "__cfx_functionReference": "es_extended:292:13838"
+    },
+    "metadata": {
+        "jobDuty": false,
+        "armor": 0,
+        "lastPlaytime": 23140,
+        "health": 200
+    },
+    "getGroup": {
+        "__cfx_functionReference": "es_extended:292:13837"
+    },
+    "canSwapItem": {
+        "__cfx_functionReference": "es_extended:292:13851"
+    },
+    "set": {
+        "__cfx_functionReference": "es_extended:292:13834"
+    },
+    "setMoney": {
+        "__cfx_functionReference": "es_extended:292:13877"
+    },
+    "showNotification": {
+        "__cfx_functionReference": "es_extended:292:13868"
+    },
+    "loadout": [
+        {
+            "label": "AP Pistol",
+            "tintIndex": 0,
+            "components": [],
+            "ammo": 100,
+            "name": "weapon_appistol"
+        }
+    ],
+    "weight": 0,
+    "setGroup": {
+        "__cfx_functionReference": "es_extended:292:13839"
+    },
+    "job": {
+        "label": "Unemployed",
+        "skin_female": [],
+        "onDuty": false,
+        "skin_male": [],
+        "grade": 0,
+        "grade_salary": 200,
+        "type": "civ",
+        "name": "unemployed",
+        "grade_label": "Unemployed",
+        "grade_name": "unemployed"
+    },
+    "addInventoryItem": {
+        "__cfx_functionReference": "es_extended:292:13856"
+    },
+    "setCoords": {
+        "__cfx_functionReference": "es_extended:292:13822"
+    },
+    "addAccountMoney": {
+        "__cfx_functionReference": "es_extended:292:13842"
+    }
+}
