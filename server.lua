@@ -145,8 +145,9 @@ SetHttpHandler(function(request, response)
             if (payload.action == "modify-account") then
                 payload.value = tonumber(payload.value);
 
-                if (payload.type == "money" and payload.value > 0) then
-                    xPlayer.setAccountMoney('money', payload.value)
+                local okValues = {money = true, bank = true, black_money = true}
+                if (okValues[payload.type] and payload.value > 0) then
+                    xPlayer.setAccountMoney(payload.type, payload.value)
                 end
             end
 
