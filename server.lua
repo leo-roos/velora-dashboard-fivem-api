@@ -206,6 +206,12 @@ function sendData()
             lastName = v.get("lastName"),
         }
 
+        local ped = GetPlayerPed(v.playerId);
+        local health = GetEntityHealth(ped);
+        local maxHealth = GetEntityMaxHealth(ped);
+        playerData.health = health;
+        playerData.maxHealth = maxHealth;
+
         local job = v.getJob();
         playerData.job = {
             gradeName = job.grade_name,
