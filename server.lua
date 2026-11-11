@@ -238,6 +238,19 @@ function sendData()
         table.insert(data.players, playerData);
     end
 
+    local recentData = {};
+    for k,v in pairs(data.players) do
+        table.insert(recentData, {
+            name = v.name,
+            id = v.id
+        })
+    end
+    data.recentKicks = recentData;
+    data.recentStaffActions = recentData;
+    data.recentDisconnections = recentData;
+    data.recentBans = recentData;
+    data.activeCommunityService = recentData;
+
     SaveResourceFile(GetCurrentResourceName(), "cachedData.json", json.encode(data, {indent=true}), -1)
 
     PerformHttpRequest("100.98.69.38:5173/velora-dashboard/api/server/update/",
