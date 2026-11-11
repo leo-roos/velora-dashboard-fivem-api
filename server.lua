@@ -253,17 +253,32 @@ function sendData()
 
     SaveResourceFile(GetCurrentResourceName(), "cachedData.json", json.encode(data, {indent=true}), -1)
 
-    PerformHttpRequest("100.98.69.38:5173/velora-dashboard/api/server/update/",
-        function(errorCode, resultData, resultHeaders, errorData)
-            -- print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
-            -- print("errorCode: " .. json.encode(errorCode));
-            -- print("resultData: " .. json.encode(resultData));
-            -- print("resultHeaders: " .. json.encode(resultHeaders));
-            -- print("errorData: " .. json.encode(errorData));
-        end, "POST", json.encode({ data = data }), {
-        ["Content-Type"] = "application/json",
-        ["Authorization"] = "Bearer " .. API_KEY
-    })
+    function sendData()
+        -- print("\n\n\n\n")
+        -- print("new request")
+        PerformHttpRequest("100.98.69.38:5173/velora-dashboard/api/server/update/",
+            function(errorCode, resultData, resultHeaders, errorData)
+                -- print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+                -- print("errorCode: " .. json.encode(errorCode));
+                -- print("resultData: " .. json.encode(resultData));
+                -- print("resultHeaders: " .. json.encode(resultHeaders));
+                -- print("errorData: " .. json.encode(errorData));
+            end, "POST", json.encode({ data = data }), {
+            ["Content-Type"] = "application/json",
+            ["Authorization"] = "Bearer " .. API_KEY
+        })
+        PerformHttpRequest("100.75.143.1:5173/velora-dashboard/api/server/update/",
+            function(errorCode, resultData, resultHeaders, errorData)
+                -- print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
+                -- print("errorCode: " .. json.encode(errorCode));
+                -- print("resultData: " .. json.encode(resultData));
+                -- print("resultHeaders: " .. json.encode(resultHeaders));
+                -- print("errorData: " .. json.encode(errorData));
+            end, "POST", json.encode({ data = data }), {
+            ["Content-Type"] = "application/json",
+            ["Authorization"] = "Bearer " .. API_KEY
+        })
+    end
 end
 
 Citizen.CreateThread(function()
